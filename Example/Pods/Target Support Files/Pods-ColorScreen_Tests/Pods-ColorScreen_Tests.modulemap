@@ -1,0 +1,6 @@
+framework module Pods_ColorScreen_Tests {
+  umbrella header "Pods-ColorScreen_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

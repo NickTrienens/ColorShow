@@ -1,0 +1,6 @@
+framework module ColorScreen {
+  umbrella header "ColorScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

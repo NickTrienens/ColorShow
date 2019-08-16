@@ -10,11 +10,29 @@
 		150DC7A73EBE7904EA5D4B84 /* Pods_ColorScreen_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322A4F593B947087E684890B /* Pods_ColorScreen_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C70211B7D228B7DB468975AB /* Pods_ColorScreen_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313A90DD3DF0FFD4516D59A4 /* Pods_ColorScreen_Tests.framework */; };
+		F90CD6632305EC2700237EA3 /* Peripheral+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90CD6622305EC2700237EA3 /* Peripheral+Hashable.swift */; };
+		F9444D0C22996CF200CE3B4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9444D0B22996CF200CE3B4A /* GoogleService-Info.plist */; };
+		F9444D1022996FF100CE3B4A /* IPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D0F22996FF100CE3B4A /* IPadViewController.swift */; };
+		F9444D122299707500CE3B4A /* FirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D112299707500CE3B4A /* FirebaseStore.swift */; };
+		F9444D142299714300CE3B4A /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D132299714300CE3B4A /* Codable+Extensions.swift */; };
+		F9444D172299716700CE3B4A /* CurrentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D162299716700CE3B4A /* CurrentState.swift */; };
+		F9444D19229971EE00CE3B4A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D18229971EE00CE3B4A /* String+Extensions.swift */; };
+		F9444D1B229975AB00CE3B4A /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D1A229975AB00CE3B4A /* PhoneViewController.swift */; };
+		F9444D1D229EABD300CE3B4A /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D1C229EABD300CE3B4A /* PhoneViewModel.swift */; };
+		F9444D1F229EAC4C00CE3B4A /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D1E229EAC4C00CE3B4A /* ColorViewModel.swift */; };
+		F9444D21229EADFD00CE3B4A /* DiscoverableDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D20229EADFD00CE3B4A /* DiscoverableDevices.swift */; };
+		F9444D23229EC0C200CE3B4A /* MultiPeerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9444D22229EC0C100CE3B4A /* MultiPeerWrapper.swift */; };
+		F9D8B7D62303620E00775696 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8B7D52303620E00775696 /* AudioPlayer.swift */; };
+		F9D8B7DD230363C400775696 /* goat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8B7D8230363C400775696 /* goat.mp3 */; };
+		F9D8B7DE230363C400775696 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8B7D9230363C400775696 /* pig.mp3 */; };
+		F9D8B7DF230363C400775696 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8B7DA230363C400775696 /* cat.mp3 */; };
+		F9D8B7E0230363C400775696 /* owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8B7DB230363C400775696 /* owl.mp3 */; };
+		F9D8B7E1230363C400775696 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8B7DC230363C400775696 /* elephant.mp3 */; };
+		F9D8B7E52304588A00775696 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8B7E42304588A00775696 /* Beacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +52,6 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ColorScreen_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorScreen_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +59,30 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62ADE6ADCFF1F99CA6909EFC /* Pods-ColorScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorScreen_Tests.release.xcconfig"; path = "Target Support Files/Pods-ColorScreen_Tests/Pods-ColorScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2E0A5379E936799B42CA866 /* Pods-ColorScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorScreen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ColorScreen_Tests/Pods-ColorScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACE31B8644DF1B40154C6650 /* ColorScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorScreen.podspec; path = ../ColorScreen.podspec; sourceTree = "<group>"; };
-		BE1C932F4EBCF5F09B081436 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ACE31B8644DF1B40154C6650 /* ColorScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorScreen.podspec; path = ../ColorScreen.podspec; sourceTree = "<group>"; };
+		BE1C932F4EBCF5F09B081436 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8A1F4E850302926F3C3767E /* Pods-ColorScreen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorScreen_Example.debug.xcconfig"; path = "Target Support Files/Pods-ColorScreen_Example/Pods-ColorScreen_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB7DD2A98C74CE871A2D37B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB7DD2A98C74CE871A2D37B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F42864E4D2CF1E31804BE511 /* Pods-ColorScreen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorScreen_Example.release.xcconfig"; path = "Target Support Files/Pods-ColorScreen_Example/Pods-ColorScreen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F90CD6622305EC2700237EA3 /* Peripheral+Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Peripheral+Hashable.swift"; sourceTree = "<group>"; };
+		F9444D0B22996CF200CE3B4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9444D0F22996FF100CE3B4A /* IPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPadViewController.swift; sourceTree = "<group>"; };
+		F9444D112299707500CE3B4A /* FirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStore.swift; sourceTree = "<group>"; };
+		F9444D132299714300CE3B4A /* Codable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		F9444D162299716700CE3B4A /* CurrentState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentState.swift; sourceTree = "<group>"; };
+		F9444D18229971EE00CE3B4A /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F9444D1A229975AB00CE3B4A /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		F9444D1C229EABD300CE3B4A /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		F9444D1E229EAC4C00CE3B4A /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
+		F9444D20229EADFD00CE3B4A /* DiscoverableDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverableDevices.swift; sourceTree = "<group>"; };
+		F9444D22229EC0C100CE3B4A /* MultiPeerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerWrapper.swift; sourceTree = "<group>"; };
+		F9D8B7D52303620E00775696 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		F9D8B7D8230363C400775696 /* goat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat.mp3; sourceTree = "<group>"; };
+		F9D8B7D9230363C400775696 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		F9D8B7DA230363C400775696 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		F9D8B7DB230363C400775696 /* owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = owl.mp3; sourceTree = "<group>"; };
+		F9D8B7DC230363C400775696 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
+		F9D8B7E42304588A00775696 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				F9444D0B22996CF200CE3B4A /* GoogleService-Info.plist */,
+				F9D8B7D7230363C400775696 /* sounds */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ColorScreen */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -102,9 +140,16 @@
 		607FACD21AFB9204008FA782 /* Example for ColorScreen */ = {
 			isa = PBXGroup;
 			children = (
+				F90CD6622305EC2700237EA3 /* Peripheral+Hashable.swift */,
+				F9D8B7E42304588A00775696 /* Beacon.swift */,
+				F9444D152299714C00CE3B4A /* Services */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				F9444D1A229975AB00CE3B4A /* PhoneViewController.swift */,
+				F9444D1C229EABD300CE3B4A /* PhoneViewModel.swift */,
+				F9444D0F22996FF100CE3B4A /* IPadViewController.swift */,
+				F9D8B7D52303620E00775696 /* AudioPlayer.swift */,
+				F9444D1E229EAC4C00CE3B4A /* ColorViewModel.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -148,6 +193,31 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		F9444D152299714C00CE3B4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9444D22229EC0C100CE3B4A /* MultiPeerWrapper.swift */,
+				F9444D18229971EE00CE3B4A /* String+Extensions.swift */,
+				F9444D132299714300CE3B4A /* Codable+Extensions.swift */,
+				F9444D112299707500CE3B4A /* FirebaseStore.swift */,
+				F9444D162299716700CE3B4A /* CurrentState.swift */,
+				F9444D20229EADFD00CE3B4A /* DiscoverableDevices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9D8B7D7230363C400775696 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8B7D8230363C400775696 /* goat.mp3 */,
+				F9D8B7D9230363C400775696 /* pig.mp3 */,
+				F9D8B7DA230363C400775696 /* cat.mp3 */,
+				F9D8B7DB230363C400775696 /* owl.mp3 */,
+				F9D8B7DC230363C400775696 /* elephant.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		FAE33764FB827C37B12D5D77 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +226,6 @@
 				A2E0A5379E936799B42CA866 /* Pods-ColorScreen_Tests.debug.xcconfig */,
 				62ADE6ADCFF1F99CA6909EFC /* Pods-ColorScreen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,10 +237,12 @@
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ColorScreen_Example" */;
 			buildPhases = (
 				A105109929F66B44EC8B6219 /* [CP] Check Pods Manifest.lock */,
+				5C1A1153BD0CD1AB685ED593 /* [CP-User] swiftformat run */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				894E1E949ABE64C7DE7FE9DC /* [CP] Embed Pods Frameworks */,
+				F9444D0E22996F9600CE3B4A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -190,7 +261,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				F9C58D1F80785C5EAEB75C5E /* [CP] Embed Pods Frameworks */,
+				F9444D0D22996F5300CE3B4A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -214,10 +285,17 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 69UX76ERZ8;
 						LastSwiftMigration = 0900;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 69UX76ERZ8;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +306,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,8 +326,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				F9D8B7DE230363C400775696 /* pig.mp3 in Resources */,
+				F9D8B7E0230363C400775696 /* owl.mp3 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				F9D8B7E1230363C400775696 /* elephant.mp3 in Resources */,
+				F9D8B7DD230363C400775696 /* goat.mp3 in Resources */,
+				F9D8B7DF230363C400775696 /* cat.mp3 in Resources */,
+				F9444D0C22996CF200CE3B4A /* GoogleService-Info.plist in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,22 +347,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C1A1153BD0CD1AB685ED593 /* [CP-User] swiftformat run */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] swiftformat run";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " ./Pods/SwiftFormat/CommandLineTool/swiftformat . --swiftversion 5\n";
+			showEnvVarsInLog = 0;
+		};
 		894E1E949ABE64C7DE7FE9DC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ColorScreen_Example/Pods-ColorScreen_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ColorScreen/ColorScreen.framework",
+				"${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MultiPeer/MultiPeer.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBluetoothKit/RxBluetoothKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyButton/SwiftyButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+				"${BUILT_PRODUCTS_DIR}/iBeaconManager/iBeaconManager.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorScreen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultiPeer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBluetoothKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iBeaconManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -329,7 +450,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9C58D1F80785C5EAEB75C5E /* [CP] Embed Pods Frameworks */ = {
+		F9444D0D22996F5300CE3B4A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,25 +458,34 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ColorScreen_Tests/Pods-ColorScreen_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
 			);
-			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorScreen_Tests/Pods-ColorScreen_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "
+";
+		};
+		F9444D0E22996F9600CE3B4A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -364,8 +494,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9444D1D229EABD300CE3B4A /* PhoneViewModel.swift in Sources */,
+				F9444D122299707500CE3B4A /* FirebaseStore.swift in Sources */,
+				F9444D1F229EAC4C00CE3B4A /* ColorViewModel.swift in Sources */,
+				F90CD6632305EC2700237EA3 /* Peripheral+Hashable.swift in Sources */,
+				F9444D19229971EE00CE3B4A /* String+Extensions.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				F9444D23229EC0C200CE3B4A /* MultiPeerWrapper.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F9444D21229EADFD00CE3B4A /* DiscoverableDevices.swift in Sources */,
+				F9444D172299716700CE3B4A /* CurrentState.swift in Sources */,
+				F9444D1B229975AB00CE3B4A /* PhoneViewController.swift in Sources */,
+				F9444D142299714300CE3B4A /* Codable+Extensions.swift in Sources */,
+				F9D8B7E52304588A00775696 /* Beacon.swift in Sources */,
+				F9D8B7D62303620E00775696 /* AudioPlayer.swift in Sources */,
+				F9444D1022996FF100CE3B4A /* IPadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,14 +531,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -452,7 +587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -498,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -511,13 +646,15 @@
 			baseConfigurationReference = D8A1F4E850302926F3C3767E /* Pods-ColorScreen_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69UX76ERZ8;
 				INFOPLIST_FILE = ColorScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geckgalleries.colorSleeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -526,13 +663,15 @@
 			baseConfigurationReference = F42864E4D2CF1E31804BE511 /* Pods-ColorScreen_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69UX76ERZ8;
 				INFOPLIST_FILE = ColorScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geckgalleries.colorSleeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -540,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2E0A5379E936799B42CA866 /* Pods-ColorScreen_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 69UX76ERZ8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -562,6 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62ADE6ADCFF1F99CA6909EFC /* Pods-ColorScreen_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 69UX76ERZ8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
